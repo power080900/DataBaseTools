@@ -1,7 +1,10 @@
 # **DEEPINSIGHT**
 
+## 작업순서
+특이사항 확인 > SQL적재 > 분포확인 > 시각화 > metadata 정리
+
 ## DATA_SET
-- 완료 - 특이사항 확인, 분포확인 및 MySQL 적재 완료
+- 작업완료
     - MPIIGAZE
     - Gaze360
     - GazeCapture
@@ -20,11 +23,11 @@
 
 - 진행중
     - NVgave_synthetic_dataset
-      - sql 작업 진행중
+      - sql 작업 진행 완료 - 시각화 필요
     - NVgaze_real_dataset_ar
-      - sql 작업 진행중
+      - sql 작업 진행 완료 - 시각화 필요
     - NVgaze_real_dataset_vr
-      - sql 작업 진행중
+      - sql 작업 진행 완료 - 시각화 필요
     - TeyeD_Dikablis
       - sql 작업 진행중
     - TeyeD_GazeinTheWild
@@ -32,9 +35,9 @@
   
 - 미완료
     - EYEDIAP
-        - 대학소속 연구목적으로 데이터 요청 중
+        - 데이터 요청 실패
     - OPENEDS: OPEN EYE DATASET
-        - 대학소속 연구목적으로 데이터 요청 중
+        - 데이터 요청 실패
     - AFLW2000
     - AIhub_EyeMovement
     - CASIA
@@ -53,7 +56,7 @@
     - dmd
     - drive_act
     - drive_act_eat
-    - drivers_monitering
+    - drivers_monitoring
     - event_train
     - face_recognition
     - family_id
@@ -63,7 +66,7 @@
     - LFW_FF_GAN
     - MultiPIE
     - NIA2022
-    - nir_fae
+    - nir_face
     - OBD_2
     - panasonic
     - POCT
@@ -72,7 +75,6 @@
     - preventing_drowsy_semicontrolled
     - seatbelt_coco
     - seatbelt_images_cv
-    - shanghaiTechGaze
     - sviro
     - sviro_uncertainty
     - Vehicle_CAN_bus
@@ -115,7 +117,7 @@
 
 ---
 
-### SQL_utils.py
+### utils.py
 SQL을 만들거나 SQL서버에서 파이썬환경으로 값을 가져올때 사용 
 - create_table
 <br>: mysql 서버 안에 테이블을 만드는 함수
@@ -132,10 +134,6 @@ SQL을 만들거나 SQL서버에서 파이썬환경으로 값을 가져올때 �
 - load_landmark_data
 <br>: 테이블에서 landmark값을 dataframe으로 변환하여 가져오는 함수, 분포확인과 시각화에 이용가능, 다만 데이터셋 마다 정규화 여부가 다르기 때문에 통일화가 필요함.
 
----
-
-
-### EDA_utils.py
 데이터 전처리나 분포를 확인할때 사용 SQL_utils와 함수가 연결되어 값을 가져오도록 구성
 - draw_heatmap
 <br>: SQL_utils.py에서 불러온 load_2D_gaze_data값의 분포를 heatmap으로 확인하는 함수
