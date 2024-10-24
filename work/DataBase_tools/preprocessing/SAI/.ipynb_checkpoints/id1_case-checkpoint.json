@@ -1,0 +1,1560 @@
+{
+  "humans": [
+    {
+      "identities": {
+        "renders_per_identity": 79,
+        "ids": [
+          1128
+        ]
+      },
+      "3d_location": [
+        {
+          "specifications": {
+            "type": "vehicle",
+            "properties": {}
+          },
+          "percent": 100
+        }
+      ],
+      "accessories": {
+        "glasses": [
+          {
+            "sex_matched_only": true,
+            "style": [
+              "all"
+            ],
+            "lens_color": [
+              "black"
+            ],
+            "metalness": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            },
+            "transparency": {
+              "type": "range",
+              "values": {
+                "max": 1,
+                "min": 0.7
+              }
+            },
+            "percent": 10
+          },
+          {
+            "sex_matched_only": true,
+            "style": [
+              "all"
+            ],
+            "lens_color": [
+              "black"
+            ],
+            "metalness": {
+              "type": "list",
+              "values": [
+                1
+              ]
+            },
+            "transparency": {
+              "type": "range",
+              "values": {
+                "max": 1,
+                "min": 0.7
+              }
+            },
+            "percent": 10
+          },
+          {
+            "sex_matched_only": true,
+            "style": [
+              "all"
+            ],
+            "lens_color": [
+              "black"
+            ],
+            "metalness": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            },
+            "transparency": {
+              "type": "range",
+              "values": {
+                "max": 0.15,
+                "min": 0
+              }
+            },
+            "percent": 10
+          },
+          {
+            "sex_matched_only": true,
+            "style": [
+              "all"
+            ],
+            "lens_color": [
+              "black"
+            ],
+            "metalness": {
+              "type": "list",
+              "values": [
+                1
+              ]
+            },
+            "transparency": {
+              "type": "range",
+              "values": {
+                "max": 0.15,
+                "min": 0
+              }
+            },
+            "percent": 10
+          },
+          {
+            "sex_matched_only": true,
+            "style": [
+              "all"
+            ],
+            "lens_color": [
+              "default"
+            ],
+            "metalness": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            },
+            "transparency": {
+              "type": "range",
+              "values": {
+                "max": 1,
+                "min": 0.7
+              }
+            },
+            "percent": 10
+          },
+          {
+            "sex_matched_only": true,
+            "style": [
+              "none"
+            ],
+            "lens_color": [
+              "default"
+            ],
+            "metalness": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            },
+            "transparency": {
+              "type": "list",
+              "values": [
+                1
+              ]
+            },
+            "percent": 50
+          }
+        ],
+        "headwear": [
+          {
+            "style": [
+              "all"
+            ],
+            "sex_matched_only": true,
+            "percent": 30
+          },
+          {
+            "style": [
+              "none"
+            ],
+            "sex_matched_only": true,
+            "percent": 70
+          }
+        ]
+      },
+      "environment": {
+        "hdri": {
+          "name": [
+            "abandoned_church",
+            "abandoned_hopper_terminal_01",
+            "abandoned_hopper_terminal_02",
+            "abandoned_hopper_terminal_03",
+            "abandoned_hopper_terminal_04",
+            "abandoned_parking",
+            "abandoned_slipway",
+            "abandoned_tank_farm_01",
+            "abandoned_tank_farm_02",
+            "abandoned_tank_farm_03",
+            "abandoned_tank_farm_04",
+            "abandoned_waterworks",
+            "ahornsteig",
+            "altanka",
+            "approaching_storm",
+            "arboretum",
+            "aristea_wreck",
+            "autumn_crossing",
+            "autumn_forest_01",
+            "autumn_forest_02",
+            "autumn_forest_03",
+            "autumn_ground",
+            "autumn_hockey",
+            "autumn_meadow",
+            "autumn_park",
+            "autumn_road",
+            "balcony",
+            "beach_parking",
+            "bell_park_dawn",
+            "bell_park_pier",
+            "belvedere",
+            "bergen",
+            "bethnal_green_entrance",
+            "between_bridges",
+            "binnenalster",
+            "birbeck_street_underpass",
+            "birchwood",
+            "bismarckturm",
+            "blau_river",
+            "blaubeuren_church_square",
+            "blaubeuren_night",
+            "blaubeuren_outskirts",
+            "blouberg_sunrise_1",
+            "blouberg_sunrise_2",
+            "blue_grotto",
+            "blue_lagoon",
+            "blue_lagoon_night",
+            "brick_factory_01",
+            "brick_factory_02",
+            "cambridge",
+            "canary_wharf",
+            "cannon",
+            "cape_hill",
+            "cave_wall",
+            "cayley_lookout",
+            "cedar_bridge",
+            "champagne_castle_1",
+            "chapmans_drive",
+            "chinese_garden",
+            "circus_maximus_1",
+            "circus_maximus_2",
+            "cliffside",
+            "cloud_layers",
+            "cloudy_cliffside_road",
+            "cloudy_vondelpark",
+            "colosseum",
+            "construction_yard",
+            "courtyard",
+            "crosswalk",
+            "crystal_falls",
+            "dam_road",
+            "delta_2",
+            "derelict_highway_noon",
+            "derelict_overpass",
+            "derelict_underpass",
+            "dikhololo_night",
+            "dikhololo_sunset",
+            "dirt_bike_track_01",
+            "dresden_moat",
+            "dresden_square",
+            "driving_school",
+            "dry_field",
+            "dusseldorf_bridge",
+            "eilenriede_labyrinth",
+            "eilenriede_park",
+            "emmarentia",
+            "epping_forest_01",
+            "epping_forest_02",
+            "evening_road_01",
+            "factory_yard",
+            "felsenlabyrinth",
+            "fish_eagle_hill",
+            "fish_hoek_beach",
+            "flower_hillside",
+            "flower_road",
+            "forest_cave",
+            "forest_slope",
+            "freight_station",
+            "furry_clouds",
+            "future_parking",
+            "gamrig",
+            "glass_passage",
+            "goegap",
+            "graffiti_shelter",
+            "gray_pier",
+            "green_point_park",
+            "green_sanctuary",
+            "greenwich_park",
+            "greenwich_park_02",
+            "greenwich_park_03",
+            "hamburg_canal",
+            "hansaplatz",
+            "harties",
+            "herkulessaulen",
+            "hikers_cave",
+            "hilltop_construction",
+            "immenstadter_horn",
+            "industrial_sunset",
+            "kiara_1_dawn",
+            "kiara_2_sunrise",
+            "kiara_3_morning",
+            "kiara_4_mid-morning",
+            "kiara_5_noon",
+            "kiara_6_afternoon",
+            "kiara_7_late-afternoon",
+            "kiara_8_sunset",
+            "kiara_9_dusk",
+            "killesberg_park",
+            "kloetzle_blei",
+            "kloofendal_48d_partly_cloudy",
+            "kloppenheim_01",
+            "kloppenheim_02",
+            "kloppenheim_03",
+            "kloppenheim_04",
+            "kloppenheim_05",
+            "kloppenheim_06",
+            "kloppenheim_07",
+            "konigsallee",
+            "konzerthaus",
+            "lakes",
+            "lakeside",
+            "lapa",
+            "lauter_waterfall",
+            "leadenhall_market",
+            "learner_park",
+            "lenong_1",
+            "lenong_2",
+            "lenong_3",
+            "lilienstein",
+            "limehouse",
+            "lot_01",
+            "lot_02",
+            "lythwood_field",
+            "lythwood_terrace",
+            "mall_parking_lot",
+            "mealie_road",
+            "missile_launch_facility_01",
+            "missile_launch_facility_02",
+            "missile_launch_facility_03",
+            "misty_dawn",
+            "misty_pines",
+            "modern_buildings",
+            "modern_buildings_night",
+            "monks_forest",
+            "monte_scherbelino",
+            "moonless_golf",
+            "moonlit_golf",
+            "mossy_forest",
+            "moulton_falls_train_tunnel_east",
+            "moulton_station_train_tunnel_west",
+            "mpumalanga_veld",
+            "mud_road",
+            "muddy_autumn_forest",
+            "museum_of_history",
+            "museumplein",
+            "nagoya_wall_path",
+            "neuer_zollhof",
+            "neurathen_rock_castle",
+            "night_bridge",
+            "ninomaru_teien",
+            "nkuhlu",
+            "noga",
+            "noon_grass",
+            "northcliff",
+            "oberer_kuhberg",
+            "old_apartments_walkway",
+            "old_outdoor_theater",
+            "old_tree_in_city_park",
+            "ostrich_road",
+            "outdoor_umbrellas",
+            "palermo_park",
+            "palermo_sidewalk",
+            "palermo_square",
+            "park_bench",
+            "partial_eclipse",
+            "paul_lobe_haus",
+            "pedestrian_overpass",
+            "piazza_bologni",
+            "piazza_martin_lutero",
+            "piazza_san_marco",
+            "pillars",
+            "pink_sunrise",
+            "pond",
+            "pond_bridge_night",
+            "pool",
+            "portland_landing_pad",
+            "potsdamer_platz",
+            "preller_drive",
+            "pump_station",
+            "pylons",
+            "quarry_01",
+            "quarry_02",
+            "quarry_03",
+            "quattro_canti",
+            "qwantani",
+            "railway_bridge_02",
+            "railway_bridges",
+            "rathaus",
+            "red_hill_curve",
+            "red_hill_straight",
+            "red_wall",
+            "reichstag_1",
+            "reinforced_concrete_01",
+            "residential_garden",
+            "restaurant_dining_area_4",
+            "restaurant_sidewalk_seating",
+            "rhodes_memorial",
+            "river_rocks",
+            "river_walk_1",
+            "river_walk_2",
+            "rocky_ridge",
+            "roof_garden",
+            "roofless_ruins",
+            "rooftop_day",
+            "rooftop_night",
+            "rooitou_park",
+            "ruckenkreuz",
+            "rural_landscape",
+            "rural_winter_roadside",
+            "rustig_koppie",
+            "san_giuseppe_bridge",
+            "satara_night",
+            "satara_night_no_lamps",
+            "schadowplatz",
+            "secluded_beach",
+            "shady_patch",
+            "shanghai_bund",
+            "signal_hill_dawn",
+            "signal_hill_sunrise",
+            "simons_town_harbour",
+            "simons_town_rocks",
+            "sisulu",
+            "skate_park",
+            "skukuza_golf",
+            "sky501",
+            "sky502",
+            "sky503",
+            "sky504",
+            "sky505",
+            "sky506",
+            "sky507",
+            "sky508",
+            "sky509",
+            "sky510",
+            "sky511",
+            "sky512",
+            "sky513",
+            "sky514",
+            "sky515",
+            "sky516",
+            "sky517",
+            "sky518",
+            "sky519",
+            "sky520",
+            "sky521",
+            "sky522",
+            "sky523",
+            "sky524",
+            "sky525",
+            "sky526",
+            "sky527",
+            "sky528",
+            "sky529",
+            "sky530",
+            "sky531",
+            "sky532",
+            "sky533",
+            "sky534",
+            "sky535",
+            "sky536",
+            "sky537",
+            "sky538",
+            "sky539",
+            "sky540",
+            "sky541",
+            "sky542",
+            "sky543",
+            "sky544",
+            "sky545",
+            "sky546",
+            "sky547",
+            "sky548",
+            "sky549",
+            "sky550",
+            "sky551",
+            "sky552",
+            "sky553",
+            "sky554",
+            "sky555",
+            "sky556",
+            "sky557",
+            "sky558",
+            "sky559",
+            "sky560",
+            "sky561",
+            "sky562",
+            "sky563",
+            "sky564",
+            "sky565",
+            "sky566",
+            "sky567",
+            "sky568",
+            "sky569",
+            "sky570",
+            "sky571",
+            "sky572",
+            "sky573",
+            "sky574",
+            "sky575",
+            "sky576",
+            "sky577",
+            "sky578",
+            "sky579",
+            "sky580",
+            "sky581",
+            "sky582",
+            "sky583",
+            "sky584",
+            "sky585",
+            "small_cathedral_02",
+            "small_cave",
+            "small_harbor_01",
+            "small_harbor_02",
+            "small_rural_road",
+            "small_rural_road_02",
+            "snowy_forest_path_01",
+            "snowy_forest_path_02",
+            "snowy_park_01",
+            "solitude_night",
+            "spiaggia_di_mondello",
+            "spruit_dawn",
+            "spruit_sunrise",
+            "stadium_01",
+            "sterkspruit_falls",
+            "stone_alley",
+            "stone_alley_02",
+            "stone_alley_03",
+            "stone_pines",
+            "straw_rolls_field_01",
+            "stream",
+            "street_lamp",
+            "suburban_field_01",
+            "suburban_field_02",
+            "suburban_parking_area",
+            "summer_stage_01",
+            "summer_stage_02",
+            "sunflowers",
+            "sunny_vondelpark",
+            "sunset_fairway",
+            "sunset_forest",
+            "sunset_in_the_chalk_quarry",
+            "syferfontein_0d_clear",
+            "syferfontein_18d_clear",
+            "syferfontein_1d_clear",
+            "syferfontein_6d_clear",
+            "symmetrical_garden",
+            "table_mountain_1",
+            "table_mountain_2",
+            "tears_of_steel_bridge",
+            "teatro_massimo",
+            "teufelsberg_ground_1",
+            "teufelsberg_ground_2",
+            "teufelsberg_lookout",
+            "teufelsberg_roof",
+            "the_lost_city",
+            "the_sky_is_on_fire",
+            "tiber_1",
+            "tiber_2",
+            "tiber_island",
+            "tiergarten",
+            "tucker_wreck",
+            "ulmer_muenster",
+            "umhlanga_sunrise",
+            "under_bridge",
+            "urban_alley_01",
+            "urban_courtyard",
+            "urban_courtyard_02",
+            "urban_street_01",
+            "urban_street_02",
+            "urban_street_03",
+            "urban_street_04",
+            "vatican_road",
+            "veld_fire",
+            "venetian_crossroads",
+            "venice_dawn_1",
+            "venice_dawn_2",
+            "venice_sunrise",
+            "venice_sunset",
+            "veranda",
+            "versveldpas",
+            "viale_giuseppe_garibaldi",
+            "vignaioli",
+            "vignaioli_night",
+            "wasteland_clouds",
+            "waterbuck_trail",
+            "whipple_creek_gazebo",
+            "whipple_creek_regional_park_01",
+            "whipple_creek_regional_park_04",
+            "white_cliff_top",
+            "wide_street_01",
+            "wide_street_02",
+            "winter_evening",
+            "winter_lake_01",
+            "winter_river",
+            "winter_sky",
+            "wobbly_bridge",
+            "wooden_motel",
+            "woods",
+            "xiequ_yuan",
+            "yellow_field",
+            "zhengyang_gate",
+            "zwinger_night"
+          ],
+          "intensity": {
+            "type": "range",
+            "values": {
+              "max": 1,
+              "min": 0.25
+            }
+          },
+          "rotation": {
+            "type": "list",
+            "values": [
+              -120
+            ]
+          }
+        }
+      },
+      "facial_attributes": {
+        "expression": [
+          {
+            "name": [
+              "circumspect",
+              "compressed",
+              "disgusted",
+              "eye_closed_max_right",
+              "eye_closed_right",
+              "eye_closed_max_left",
+              "eye_closed_left",
+              "eyes_opened_max_left",
+              "eyes_opened_max_right",
+              "look_dwn_left",
+              "look_dwn_right",
+              "look_up_left",
+              "look_up_right",
+              "lower_eyelid_squint_right",
+              "lower_eyelid_squint_left",
+              "uncompressed",
+              "upper_eyelid_up_right",
+              "upper_eyelid_up_left",
+              "upper_eyelid_dn_left",
+              "upper_eyelid_dn_right",
+              "eyes_closed_max",
+              "eyebrows_lower",
+              "lower_eyelid_up_left",
+              "lower_eyelid_up_right",
+              "eyes_closed"
+            ],
+            "intensity": {
+              "type": "list",
+              "values": [
+                0,
+                0.5,
+                1
+              ]
+            },
+            "percent": 100
+          }
+        ],
+        "gaze": [
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": -15,
+                "min": -30
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": -15,
+                "min": -30
+              }
+            },
+            "percent": 3.6
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": -15,
+                "min": -30
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 0,
+                "min": -15
+              }
+            },
+            "percent": 3.6
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": -15,
+                "min": -30
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 15,
+                "min": 0
+              }
+            },
+            "percent": 3.6
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": -15,
+                "min": -30
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 30,
+                "min": 15
+              }
+            },
+            "percent": 3.6
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 0,
+                "min": -15
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": -15,
+                "min": -30
+              }
+            },
+            "percent": 3.6
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 0,
+                "min": -15
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 0,
+                "min": -15
+              }
+            },
+            "percent": 3.6
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 0,
+                "min": -15
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 15,
+                "min": 0
+              }
+            },
+            "percent": 3.6
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 0,
+                "min": -15
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 30,
+                "min": 15
+              }
+            },
+            "percent": 3.6
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 15,
+                "min": 0
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": -15,
+                "min": -30
+              }
+            },
+            "percent": 7.1
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 15,
+                "min": 0
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 0,
+                "min": -15
+              }
+            },
+            "percent": 7.1
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 15,
+                "min": 0
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 15,
+                "min": 0
+              }
+            },
+            "percent": 7.1
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 15,
+                "min": 0
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 30,
+                "min": 15
+              }
+            },
+            "percent": 7.1
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 30,
+                "min": 15
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": -15,
+                "min": -30
+              }
+            },
+            "percent": 10.7
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 30,
+                "min": 15
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 0,
+                "min": -15
+              }
+            },
+            "percent": 10.7
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 30,
+                "min": 15
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 15,
+                "min": 0
+              }
+            },
+            "percent": 10.7
+          },
+          {
+            "horizontal_angle": {
+              "type": "range",
+              "values": {
+                "max": 30,
+                "min": 15
+              }
+            },
+            "vertical_angle": {
+              "type": "range",
+              "values": {
+                "max": 30,
+                "min": 15
+              }
+            },
+            "percent": 10.699999999999989
+          }
+        ],
+        "head_turn": [
+          {
+            "pitch": {
+              "type": "range",
+              "values": {
+                "max": 40,
+                "min": 20
+              }
+            },
+            "yaw": {
+              "type": "range",
+              "values": {
+                "max": -20,
+                "min": -40
+              }
+            },
+            "roll": {
+              "type": "range",
+              "values": {
+                "max": -15,
+                "min": -30
+              }
+            },
+            "percent": 100
+          }
+        ],
+        "hair": [
+          {
+            "style": [
+              "afro_01",
+              "afro_02",
+              "afro_03",
+              "afro_04",
+              "afro_05",
+              "afro_06",
+              "afro_07",
+              "afro_08",
+              "afro_09",
+              "afro_10",
+              "afro_11",
+              "afro_12",
+              "afro_13",
+              "bob_01",
+              "bob_02",
+              "bob_03",
+              "bob_04",
+              "bob_05",
+              "bob_06",
+              "bob_07",
+              "bob_08",
+              "bob_09",
+              "bob_10",
+              "bob_11",
+              "bob_12",
+              "bob_13",
+              "bob_14",
+              "bob_15",
+              "bob_16",
+              "bob_17",
+              "bob_18",
+              "bob_19",
+              "bob_20",
+              "bob_21",
+              "bob_22",
+              "bob_23",
+              "bob_24",
+              "bob_25",
+              "bob_26",
+              "bob_27",
+              "bob_28",
+              "buzzcut_01",
+              "buzzcut_02",
+              "convertible_01",
+              "curtain_01",
+              "curtain_02",
+              "curtain_03",
+              "curtain_04",
+              "curtain_05",
+              "curtain_06",
+              "curtain_07",
+              "curtain_08",
+              "curtain_09",
+              "frenchcrop_01",
+              "frenchcrop_02",
+              "frenchcrop_03",
+              "layered_01",
+              "layered_02",
+              "layered_03",
+              "layered_04",
+              "layered_05",
+              "layered_06",
+              "long_wavy_01",
+              "long_wavy_02",
+              "long_wavy_03",
+              "long_wavy_04",
+              "long_wavy_05",
+              "messy_01",
+              "mohawk_01",
+              "mohawk_02",
+              "pompadour_01",
+              "pompadour_02",
+              "quiff_01",
+              "quiff_02",
+              "short_wavy_01",
+              "short_wavy_02",
+              "short_wavy_03",
+              "short_wavy_04",
+              "short_wavy_05",
+              "simple_01",
+              "simple_02",
+              "slicked_01"
+            ],
+            "color": [
+              "dark_golden_brown"
+            ],
+            "color_seed": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            },
+            "relative_length": {
+              "type": "range",
+              "values": {
+                "max": 1,
+                "min": 0.5
+              }
+            },
+            "relative_density": {
+              "type": "list",
+              "values": [
+                0.5
+              ]
+            },
+            "sex_matched_only": true,
+            "ethnicity_matched_only": false,
+            "percent": 50
+          },
+          {
+            "style": [
+              "afro_01",
+              "afro_02",
+              "afro_03",
+              "afro_04",
+              "afro_05",
+              "afro_06",
+              "afro_07",
+              "afro_08",
+              "afro_09",
+              "afro_10",
+              "afro_11",
+              "afro_12",
+              "afro_13",
+              "bob_01",
+              "bob_02",
+              "bob_03",
+              "bob_04",
+              "bob_05",
+              "bob_06",
+              "bob_07",
+              "bob_08",
+              "bob_09",
+              "bob_10",
+              "bob_11",
+              "bob_12",
+              "bob_13",
+              "bob_14",
+              "bob_15",
+              "bob_16",
+              "bob_17",
+              "bob_18",
+              "bob_19",
+              "bob_20",
+              "bob_21",
+              "bob_22",
+              "bob_23",
+              "bob_24",
+              "bob_25",
+              "bob_26",
+              "bob_27",
+              "bob_28",
+              "buzzcut_01",
+              "buzzcut_02",
+              "convertible_01",
+              "curtain_01",
+              "curtain_02",
+              "curtain_03",
+              "curtain_04",
+              "curtain_05",
+              "curtain_06",
+              "curtain_07",
+              "curtain_08",
+              "curtain_09",
+              "frenchcrop_01",
+              "frenchcrop_02",
+              "frenchcrop_03",
+              "layered_01",
+              "layered_02",
+              "layered_03",
+              "layered_04",
+              "layered_05",
+              "layered_06",
+              "long_wavy_01",
+              "long_wavy_02",
+              "long_wavy_03",
+              "long_wavy_04",
+              "long_wavy_05",
+              "messy_01",
+              "mohawk_01",
+              "mohawk_02",
+              "pompadour_01",
+              "pompadour_02",
+              "quiff_01",
+              "quiff_02",
+              "short_wavy_01",
+              "short_wavy_02",
+              "short_wavy_03",
+              "short_wavy_04",
+              "short_wavy_05",
+              "simple_01",
+              "simple_02",
+              "slicked_01"
+            ],
+            "color": [
+              "dark_golden_brown"
+            ],
+            "color_seed": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            },
+            "relative_length": {
+              "type": "list",
+              "values": [
+                1
+              ]
+            },
+            "relative_density": {
+              "type": "list",
+              "values": [
+                0.5
+              ]
+            },
+            "sex_matched_only": true,
+            "ethnicity_matched_only": false,
+            "percent": 50
+          }
+        ],
+        "facial_hair": [
+          {
+            "style": [
+              "none"
+            ],
+            "color": [
+              "dark_golden_brown"
+            ],
+            "color_seed": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            },
+            "relative_length": {
+              "type": "list",
+              "values": [
+                1
+              ]
+            },
+            "relative_density": {
+              "type": "list",
+              "values": [
+                1
+              ]
+            },
+            "match_hair_color": true,
+            "percent": 50
+          },
+          {
+            "style": [
+              "all"
+            ],
+            "color": [
+              "dark_golden_brown"
+            ],
+            "color_seed": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            },
+            "relative_length": {
+              "type": "range",
+              "values": {
+                "max": 1,
+                "min": 0.5
+              }
+            },
+            "relative_density": {
+              "type": "range",
+              "values": {
+                "max": 1,
+                "min": 0.5
+              }
+            },
+            "match_hair_color": true,
+            "percent": 50
+          }
+        ]
+      },
+      "camera_and_light_rigs": [
+        {
+          "type": "preset_location",
+          "preset_name": "overhead_console",
+          "preset_transform": {
+            "u": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            },
+            "v": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            }
+          },
+          "location": {
+            "pitch": {
+              "type": "list",
+              "values": [
+                -15
+              ]
+            },
+            "yaw": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            },
+            "roll": {
+              "type": "list",
+              "values": [
+                0
+              ]
+            }
+          },
+          "cameras": [
+            {
+              "name": "rearview",
+              "specifications": {
+                "resolution_w": 1280,
+                "resolution_h": 720,
+                "wavelength": "nir",
+                "focal_length": {
+                  "type": "list",
+                  "values": [
+                    2.6
+                  ]
+                },
+                "sensor_width": {
+                  "type": "list",
+                  "values": [
+                    11.99
+                  ]
+                }
+              },
+              "advanced": {
+                "lens_shift_horizontal": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                },
+                "lens_shift_vertical": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                },
+                "window_offset_horizontal": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                },
+                "window_offset_vertical": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                },
+                "noise_threshold": 0.017,
+                "denoise": true
+              },
+              "relative_location": {
+                "x": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                },
+                "y": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                },
+                "z": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                },
+                "pitch": {
+                  "type": "list",
+                  "values": [
+                    -15
+                  ]
+                },
+                "yaw": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                },
+                "roll": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                }
+              }
+            }
+          ],
+          "lights": [
+            {
+              "type": "disc",
+              "wavelength": "nir",
+              "intensity": {
+                "type": "list",
+                "values": [
+                  2400
+                ]
+              },
+              "size_meters": {
+                "type": "list",
+                "values": [
+                  0.05
+                ]
+              },
+              "relative_location": {
+                "x": {
+                  "type": "list",
+                  "values": [
+                    0.4
+                  ]
+                },
+                "y": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                },
+                "z": {
+                  "type": "list",
+                  "values": [
+                    0.1
+                  ]
+                },
+                "pitch": {
+                  "type": "list",
+                  "values": [
+                    15
+                  ]
+                },
+                "yaw": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                },
+                "roll": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                }
+              },
+              "color": {
+                "red": {
+                  "type": "list",
+                  "values": [
+                    255
+                  ]
+                },
+                "green": {
+                  "type": "list",
+                  "values": [
+                    255
+                  ]
+                },
+                "blue": {
+                  "type": "list",
+                  "values": [
+                    255
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "body": [
+        {
+          "enabled": true,
+          "fat_content": [
+            "median"
+          ],
+          "height": [
+            "median"
+          ],
+          "percent": 100
+        }
+      ],
+      "skin": {
+        "highest_resolution": false
+      },
+      "gesture": [
+        {
+          "percent": 80,
+          "name": [
+            "vehicle_answer_phone_talk",
+            "vehicle_asleep_back_02",
+            "vehicle_asleep_forward_02",
+            "vehicle_asleep_back_03",
+            "vehicle_asleep_forward_03",
+            "vehicle_asleep_left_02",
+            "vehicle_asleep_right_02",
+            "vehicle_asleep_left_03",
+            "vehicle_asleep_right_03",
+            "vehicle_at_ear_right_phone_1",
+            "vehicle_chat_left",
+            "vehicle_chat_right",
+            "vehicle_counting_in_1",
+            "vehicle_counting_in_2",
+            "vehicle_counting_in_3",
+            "vehicle_counting_in_4",
+            "vehicle_counting_in_5",
+            "vehicle_counting_out_1",
+            "vehicle_counting_out_3",
+            "vehicle_counting_out_2",
+            "vehicle_counting_out_4",
+            "vehicle_counting_out_5",
+            "vehicle_hand_talking_1",
+            "vehicle_hand_talking_4",
+            "vehicle_drink_from_cup",
+            "vehicle_drink_from_glass",
+            "vehicle_look_left",
+            "vehicle_look_over_shoulder",
+            "vehicle_look_right",
+            "vehicle_phone_check_quick",
+            "vehicle_pointing_vertical_surface",
+            "vehicle_pour",
+            "vehicle_radio_reach",
+            "vehicle_relaxed",
+            "vehicle_shhhh",
+            "vehicle_talk_mic_left_phone_1",
+            "vehicle_tap_texting_left_phone_2",
+            "vehicle_two_hand_phone_usage",
+            "vehicle_viewing_left_phone_3",
+            "vehicle_viewing_right_phone_4",
+            "vehicle_whisper",
+            "vehicle_wave_hello",
+            "vehicle_shrug_hands_out",
+            "vehicle_shake_head_no",
+            "vehicle_opens_arms_hand_talking",
+            "vehicle_ok",
+            "vehicle_head_down",
+            "vehicle_chat_side"
+          ],
+          "keyframe_only": true,
+          "mirrored": false,
+          "position_seed": {
+            "type": "list",
+            "values": [
+              0
+            ]
+          }
+        },
+        {
+          "percent": 20,
+          "name": [
+            "vehicle_default"
+          ],
+          "keyframe_only": true,
+          "mirrored": false,
+          "position_seed": {
+            "type": "list",
+            "values": [
+              0
+            ]
+          }
+        }
+      ],
+      "clothing": [
+        {
+          "percent": 100,
+          "outfit": [
+            "all"
+          ],
+          "sex_matched_only": true,
+          "single_style_per_id": true
+        }
+      ]
+    }
+  ]
+}
