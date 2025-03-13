@@ -3,6 +3,10 @@
 ## 작업순서
 특이사항 확인 > SQL적재 > 분포확인 > 시각화 > metadata 정리
 
+
+## 결과물 확인
+work\result
+
 ## DATA_SET
 - 작업완료
     - MPIIGAZE
