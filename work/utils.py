@@ -1,8 +1,6 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 import mysql.connector 
-import seaborn as sns
-import matplotlib.pyplot as plt
 import cv2
 import pandas as pd
 
